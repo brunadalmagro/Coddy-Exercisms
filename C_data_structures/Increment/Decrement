@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    // Write your code here
+    int number = 10;
+    int prefixResult = ++number;
+    int postfixResult = number++;
+
+    // Print values
+    printf("Number: %d\n", number);
+    printf("Prefix result: %d\n", prefixResult);
+    printf("Postfix result: %d\n", postfixResult);
+    
+    return 0;
+}
